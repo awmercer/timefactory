@@ -1,0 +1,14 @@
+Package: timefactory
+Title: Create Running Timers
+Version: 0.1.0
+Authors@R: person("Andrew", "Mercer", email = "andrew.mercer@gmail.com", role = c("aut", "cre"))
+Description: Contains the function \code{timefactory()} which is a factory function for creating
+    individual running timer functions. A timer created using \code{timefactory()} returns the
+    number of seconds that have elapsed since it was first created. It is intended as a less
+    messy alternative to wrapping code in multiple calls to \code{proc.time()}.
+URL: https://github.com/awmercer/timefactory
+Depends: R (>= 3.4.3)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
